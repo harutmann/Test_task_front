@@ -76,7 +76,7 @@ const[priceR, setRetailPrice] = useState((element.priceRetailAlt).toFixed(2));
 
                       <div className="product_photo">
                           <a href="#" className="url--link product__link">
-                              <img src={imgUrl(url)} alt="Изображение товара" width="160" height="160"/>
+                              <img src={`https:${imgUrl(url)}`} alt="Изображение товара" width="160" height="160"/>
                           </a>
                       </div>
 
